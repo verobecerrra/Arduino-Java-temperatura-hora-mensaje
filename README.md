@@ -58,6 +58,8 @@ public ArduinoGUI() {
 Proyecto realizado por:
 -----------------------
 Veronica Minerva Becerra Avalos
+
 14240592@itleon.edu.mx
+
 Instituto Tecnológico de León
 
