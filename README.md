@@ -40,21 +40,18 @@ Para poder obtener la conexión entre los IDE de Arduino y Java se utilizó una 
 
 Diagrama
 --------
-
-
-
-
+![Imagen_Arduino](java-arduino_bb.jpg "java-arduino_bb")
 
 El siguiente código muestra la manera en que se realizó la conexión entre NetBeans y Arduino.
 
 public ArduinoGUI() {
-        try {
-            //Se inicia la comunicación con el Puerto Serie
-            ino.arduinoTX("COM7", 9600);     
-        } catch (ArduinoException ex) {
-           Logger.getLogger(ArduinoGUI.class.getName()).log(Level.SEVERE, null, ex);
-        }        
-    }
+try {
+//Se inicia la comunicación con el Puerto Serie
+ino.arduinoTX("COM7", 9600);     
+} catch (ArduinoException ex) {
+Logger.getLogger(ArduinoGUI.class.getName()).log(Level.SEVERE, null, ex);
+}        
+}
 
 Proyecto realizado por:
 -----------------------
