@@ -9,18 +9,18 @@ El objetivo del proyecto es mostrar en una pantalla LCD la temperatura, hora y l
 
 Material:
 ---------
-•	Arduino NANO
-•	Cables de conexión
-•	Controlador LCD L2c
-•	Sensor LM35
-•	Pantalla LCD 16x2
-•	Potenciómetro
-•	Protoboard
+- Arduino NANO
+- Cables de conexión
+- Controlador LCD L2c
+- Sensor LM35
+- Pantalla LCD 16x2
+- Potenciómetro
+- Protoboard
 
 Herramientas utilizadas:
 ------------------------
-•	Arduino IDE version 1.8.2
-•	NetBeans IDE version 8.2
+- Arduino IDE version 1.8.2
+- NetBeans IDE version 8.2
 
 Características Arduino NANO
 ----------------------------
@@ -44,14 +44,14 @@ Diagrama
 
 El siguiente código muestra la manera en que se realizó la conexión entre NetBeans y Arduino.
 
-public ArduinoGUI() {
+`public ArduinoGUI() {
 try {
 //Se inicia la comunicación con el Puerto Serie
 ino.arduinoTX("COM7", 9600);     
 } catch (ArduinoException ex) {
 Logger.getLogger(ArduinoGUI.class.getName()).log(Level.SEVERE, null, ex);
 }        
-}
+}`
 
 Proyecto realizado por:
 -----------------------
